@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meme generator</title>
+    <link rel="stylesheet" href="meme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Lato&family=League+Spartan&family=Roboto+Condensed&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "heading">
+        <h1> Random Meme Generator</h1>
+         <p>Create your meme!</p>
+    </div>
+
+  <section>
+    <div>
+        <form action="" id="memeinputform" class="meme-input">
+           <label for="Topmemetxt">Add top text:</label>
+           <input type="text" id="Topmemetxt" required>
+           <label for="bottommemetxt">Add bottom text:</label>
+           <input type="text" id="bottommemetxt" required>
+           <label for="addImagememe">Add image url:</label>
+           <input type="url" id="addImagememe" required>
+           <button id="inputBtn">Generate!</button>
+        </form>
+    </div>
+ </section>
+
+<section>
+    <div class="herememe">
+        <h2>Heres your spicy meme , or memes...</h2>
+    </div>
+</section>
+
+ <section>
+    <div class="memebox" id="meme-container">
+        
+    </div>
+ </section>
+
+ <script src="meme.js"></script>
+</body>
+
+</html>

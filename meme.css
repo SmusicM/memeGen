@@ -1,0 +1,119 @@
+
+body{
+    padding: 0px 60px 0px 60px;
+    background-color: blueviolet;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+}
+.heading h1{
+ color: white;
+ font-size: 60px;
+ font-family: 'Anton' , sans-serif;
+ font-weight: 800;
+ -webkit-text-stroke: .5px black;
+ text-decoration: underline  2px solid chartreuse;
+ margin-bottom: 10px;
+}
+.heading p{
+ color: yellow;
+ font-size: 25px;
+ font-family: 'Anton' , sans-serif;
+ font-weight: 600;
+ -webkit-text-stroke: .5px black;
+ margin-top: 10px;
+}
+.meme-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+.meme-input label{
+    color: yellow;
+    font-size: 25px;
+    font-family: 'Anton' , sans-serif;
+    font-weight: 600;
+    -webkit-text-stroke: .5px black;
+    letter-spacing: 3px;
+}
+.meme-input input{
+    width: 25%;
+    outline: none;
+    border: 1px solid chartreuse;
+}
+
+
+#inputBtn{
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anton' , sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 1px black;
+    letter-spacing: 1px;
+    background-color: chartreuse;
+}
+
+.herememe{
+    color: yellow;
+    font-size: 25px;
+    font-family: 'Anton' , sans-serif;
+    font-weight: 600;
+    -webkit-text-stroke: .5px black;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+.meme{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.meme-img{
+    max-width: 100%;
+    height: auto;
+}
+.rembutton{
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Anton' , sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke: 1px black;
+    letter-spacing: 1px;
+    background-color: chartreuse;
+    /*rembutton not center due to display and postion , and also another factor being what the parent eleemnt is*/
+}
+
+
+.topmemetxt{
+ position: absolute;
+ top: 10px;
+ left: 50px;
+ color: white;
+ font-size: 25px;
+ font-family: 'Anton' , sans-serif;
+ font-weight: 600;
+ -webkit-text-stroke: .5px black;
+ 
+}
+.bottommemetxt{
+ position: absolute;
+ bottom: 30px;
+ left: 100px;
+ color: white;
+ font-size: 25px;
+ font-family: 'Anton' , sans-serif;
+ font-weight: 600;
+ -webkit-text-stroke: .5px black;
+}
